@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Tangerine&family=Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Tangerine&family=Work+Sans&display=swap');
+
+body {
+	color: var(--text-color);
+	font-family: "Alura", "Work Sans";	
+	position: absolute;
+	width: 1300px;
+	height: 1400px;
+	background: #000000;
+}
+header {
+	height: 7px;
+	width: 30px;
+	left: 1200px;
+	top: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	position: relative;
+	background-color: #000000bb;
+	padding: 0 2em;
+	backdrop-filter: blur(8px);
+    margin-bottom: 120px;
+} 
+nav ul {
+	display: flex;
+	list-style: none;
+	margin: 0px;
+    padding: 0px;
+}
+nav li {
+	padding: 0 0.5em;
+}
+.footer{
+    position: absolute;
+width: 576px;
+height: 30px;
+left: 502px; 
+top: 1717px;
+
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+text-align: center;
+}
+.write{
+    color: white;
+}
+h1{
+    font-family: 'Allura';
+    font-style: normal;
+    font-weight: 400;
+    color: white;
+    font-size: 100px;
+    line-height: 200px;
+    letter-spacing: 0.03em;
+    margin-left: 7.5em;
+    position: absolute;
+
+}
+h2{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+    color: #FFFFFF;
+    margin-left: 22em;
+    margin-top: 8em;
+    position: absolute;
+    
+}
+.icon {
+	width: 375px;
+	height: 375px;
+	left: 81px;
+	background: url(IMG_20220604_210145_779.png);
+	border-radius: 10000px;
+    top: 150px;
+    position: absolute;
+}
+#socials {
+	display: flex;
+	align-items: center;
+	text-decoration: none;
+    position: relative;
+width: 319px;
+height: 70px;
+left: 800px;
+top: 575px;
+}
+#socials img {
+	width: 1.5em !important;
+	width: clamp(27px, 5vw, 40px) !important;
+	margin: 0 0.5em;
+}
+#github-logo {
+	margin-left: 0 !important;
+}
+a {
+	color: white;
+	text-decoration-thickness: 1px;
+	text-decoration-color: #ffffffb0;
+	text-underline-offset: 4px;
+	transition: all 0.1s ease-in;
+}
+a:hover {
+	text-decoration-color: var(--text-color);
+}
+
+nav li a {
+	padding: 0.75em;
+}
+h3{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+    color: #FFFFFF;
+    margin-left: 3em;
+    margin-top: 20em;
+    position: absolute;
+}
+p{
+position: absolute;
+width: 1300px;
+height: 460px;
+left: 90px;
+top: 655px;
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 35px;
+letter-spacing: 0.02em;
+color: #FFFFFF;
+position: relative;
+}
+.summary{
+    position: relative;
+width: 1300px;
+height: 535px;
+margin-left: 2px;
+top: 104px;
+}
+#socials{
+    position: relative;
+    width: 319px;
+    height: 70px;
+    left: 950px;
+    top: 300px;
+
+}
+.line{
+    bottom: 800px; 
+}
